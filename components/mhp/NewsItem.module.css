@@ -1,0 +1,53 @@
+.item {
+    margin: 1rem 0;
+  }
+  
+  .image {
+     width: 400px;
+    height: 214px;
+    overflow: hidden;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: fill;
+  }
+  
+  .content {
+    text-align: start;
+    font-size: 14px;
+    padding: 1rem;
+    word-wrap: normal;
+    width: 400px;
+
+  }
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+    text-align: start;
+    margin-top: 0;
+
+  }
+  
+  .actions {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #ffe2ed;
+  }

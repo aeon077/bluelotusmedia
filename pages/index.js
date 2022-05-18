@@ -13,6 +13,7 @@ export default function Home() {
           content='web development, graphic design, fullstack, programming, developer, website'
         />
       </Head>
+
       {/* <About /> */}
     </div>
   );
